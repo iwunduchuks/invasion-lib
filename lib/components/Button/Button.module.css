@@ -1,0 +1,65 @@
+  .button {
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.875rem;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .base.filled {
+    border: 0;
+    background-color: var(--black--800);
+    color: var(--black--0);
+  }
+
+  .base.filled:hover {
+    background-color: var(--black--900);
+  }
+
+  .base.filled:active {
+    background-color: var(--black--800);
+  }
+
+  .base.filled:disabled {
+    background-color: var(--black--400);
+  }
+
+  .base.outlined {
+    background-color: var(--black--0);
+    color: var(--black--800);
+    border: 1px solid var(--black--600);
+  }
+
+  .base.outlined:hover {
+    background-color: var(--black--100);
+  }
+
+  .base.outlined:active {
+    background-color: var(--black--0);
+  }
+
+  .base.outlined:disabled {
+    border: 1px solid var(--black--400);
+    color: var(--black--400);
+  }
+
+  .base.text {
+    background-color: var(--black--0);
+    color: var(--black--800);
+    border: 0;
+  }
+
+  .base.text:hover {
+    background-color: var(--black--100);
+  }
+
+  .base.text:active {
+    background-color: var(--black--0);
+  }
+
+  .base.text:disabled {
+    color: var(--black--400);
+  }

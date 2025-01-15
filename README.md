@@ -1,23 +1,42 @@
-<img width="500" alt="ViteReactComponentLibrary" src="https://github.com/receter/my-component-library/assets/2504695/dbb53036-d228-477b-8cf8-f61cd6130776">
+# Available Scripts
 
-# A simple (demo) react component library
-This repository was published together with an article on [how to create a react component library](https://dev.to/receter/how-to-create-a-react-component-library-using-vites-library-mode-4lma) using Vite's library mode.
+## Build the library
 
-Here is another repo that consumes this libarary: https://github.com/receter/my-component-library-consumer
-
-The demo library on npm: https://www.npmjs.com/package/@receter/my-component-library
-
-## Installation
-You can install it with npm (don't expect much fanciness):
-```bash
-npm i @receter/my-component-library
+``` bash
+npm run build
 ```
 
-## Usage
-```javascript
-import { Button, Label, Input } from '@receter/my-component-library';
+## Publish the library
+
+- Token must still be valid, else regenerate from github
+
+``` bash
+npm publish
 ```
-See this file for an example on using this library: https://github.com/receter/my-component-library-consumer/blob/main/src/App.tsx
+
+## Run tests
+
+``` bash
+npm run test
+```
+
+## Run storybook locally
+
+``` bash
+npm run storybook
+```
+
+## Build storybook
+
+``` bash
+npm run build-storybook
+```
+
+## To install library for use
+
+``` bash
+npm install @iwunduchuks/invasion-lib
+```
 
 ## React + TypeScript + Vite
 

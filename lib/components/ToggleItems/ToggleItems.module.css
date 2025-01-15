@@ -1,0 +1,56 @@
+  input[type="radio"] {
+    display: none;
+  }
+
+  .toggle-items {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.625rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .base.dark-filled {
+    background-color: var(--black--0);
+    border: 1px solid var(--black--0);
+    color: var(--black--800);
+  }
+
+  .base.dark-filled:hover {
+    background-color: var(--black--100);
+    border: 1px solid var(--black--100);
+  }
+
+  input[type="radio"]:checked + .base.dark-filled {
+    background-color: var(--black--800);
+    border: 1px solid var(--black--800);
+    color: var(--black--0);
+  }
+
+  input[type="radio"]:checked + .base.dark-filled:hover {
+    background-color: var(--black--900);
+  }
+
+  /* -------------------------------------------------------- */
+
+  .base.light-filled {
+    border: 1px solid var(--black--0);
+    background-color: var(--black--0);
+    color: var(--black--800);
+  }
+
+  .base.light-filled:hover {
+    border: 1px solid var(--black--100);
+    background-color: var(--black--100);
+  }
+
+  input[type="radio"]:checked + .base.light-filled {
+    border-color: var(--black--300);
+    background-color: var(--black--200);
+  }
+
+  input[type="radio"]:checked + .base.light-filled:hover {
+    background-color: var(--black--300);
+  }

@@ -1,0 +1,61 @@
+:root {
+    --black--0: rgb(255, 255, 255);
+    --black--100: rgb(248, 249, 254);
+    --black--200: rgb(240, 241, 251);
+    --black--300: rgb(228, 230, 244);
+    --black--400: rgb(213, 216, 234);
+    --black--500: rgb(193, 196, 217);
+    --black--600: rgb(165, 169, 191);
+    --black--700: rgb(127, 131, 151);
+    --black--800: rgb(77, 79, 94);
+    --black--900: rgb(18, 19, 23);
+  }
+
+h1 {
+    font-size: 53px; 
+    line-height: 68px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 43px; 
+    line-height: 56px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 34px; 
+    line-height: 48px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 27px; 
+    line-height: 36px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 22px; 
+    line-height: 32px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
