@@ -27,6 +27,7 @@ export default function Select (props: {
     const handleOnChange = (event: any) => {
         const text = event.target.value
         setInputState(text)
+        console.log('text', text)
 
         // set search Filter
         if (text == '') {
@@ -83,7 +84,7 @@ export default function Select (props: {
             
             <Menu 
             checklist={inputState}
-            options={filteredOption} 
+            options={inputState?filteredOption: props.options} 
             classname={Style.menu}
             onselected={setSelected}
             style={
