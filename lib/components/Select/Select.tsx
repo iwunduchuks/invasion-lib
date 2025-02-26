@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { TextInput } from "../TextInput";
 import { Menu } from "../Menu";
 import Style from './Select.module.css'
@@ -6,7 +6,10 @@ import Style from './Select.module.css'
 export default function Select (props: {
     options: {name: string, value: string}[],
     placeholder: string,
-    selected?: any
+    selected?: React.Dispatch<React.SetStateAction< {
+        name: string;
+        value: string;
+    }>>
 }) {
 
     const [inputState, setInputState] = useState('');
@@ -17,9 +20,12 @@ export default function Select (props: {
 
     const textInputRef = useRef<HTMLInputElement>(null);
 
+    if (props.selected) {
+        props.selected(selected)
+    }
+
     const handleOnChange = (event: any) => {
         const text = event.target.value
-        console.log(text)
         setInputState(text)
 
         // set search Filter
@@ -50,7 +56,6 @@ export default function Select (props: {
     }
 
     useEffect(() => {
-        console.log('Selected:',selected)
         if (selected.name == '') {
 
         }
