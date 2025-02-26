@@ -19,7 +19,6 @@ export default function Button(props: {
         props.ClassName && props.ClassName
     )
 
-    console.log(defaultClassName)
     return (
         <button 
         className={defaultClassName} 

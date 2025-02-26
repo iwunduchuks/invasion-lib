@@ -31,8 +31,6 @@ export default function Menu (props: {
             props.onselected(selected)
         };
 
-        console.log(selected)
-
     }, [selected]);
 
     // use effect for checkList
