@@ -7,7 +7,7 @@ export default function AppBar(props: {
     children: React.ReactNode,
     ClassName?: string,
     id?: string,
-    style?: object,
+    style?: React.CSSProperties,
 }) {
 
     const defaultClassName = classNames(

@@ -12,7 +12,7 @@ export default function ToggleItems(props: {
     onChange?: (e: any) => void,
     ClassName?: string,
     id?: string,
-    style?: object
+    style?: React.CSSProperties
 }) {
 
 

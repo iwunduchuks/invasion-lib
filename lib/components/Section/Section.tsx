@@ -7,7 +7,7 @@ export default function Section(props:{
     children: React.ReactNode,
     gap?: '48px' | '24px' | '12px' | string,
     ClassName?: string,
-    style?: object,
+    style?: React.CSSProperties,
     id?: string
 }) {
     

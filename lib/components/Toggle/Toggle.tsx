@@ -9,7 +9,7 @@ export default function Toggle(props:{
     variant?: 'dark-filled' | 'light-filled',
     ClassName?: string,
     id?: string,
-    style?: object
+    style?: React.CSSProperties
 }) {
     
     const defaultClassName = classNames(

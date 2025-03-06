@@ -8,7 +8,7 @@ export default function Menu (props: {
     checklist?: string // if in list, sets on selected as itself
     classname?: string
     id?: string
-    style?: object
+    style?: React.CSSProperties
 }) {
 
     // states and references

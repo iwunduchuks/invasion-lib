@@ -11,7 +11,7 @@ export default function AppBarGroup(props: {
     gap?: '32px' | '16px' | string
     ClassName?: string,
     id?: string,
-    style?: object,
+    style?: React.CSSProperties,
 }) {
 
     const defaultClassName = classNames(

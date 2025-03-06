@@ -9,7 +9,7 @@ export default function Button(props: {
     onClick?: () => void,
     ClassName?: string,
     id?: string,
-    style?: object
+    style?: React.CSSProperties
 }) {
 
     const defaultClassName = classNames(

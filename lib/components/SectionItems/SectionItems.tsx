@@ -15,7 +15,7 @@ export default function SectionItems(props:{
             'minor2-half' | 
             'minor-half-minor',
     gap?: '48px' | '24px' | '12px' | string,
-    style?: object,
+    style?: React.CSSProperties,
     ClassName?: string,
     id?: string
 }) {
