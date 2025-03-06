@@ -1,7 +1,7 @@
 import Style from './Card.module.css'
 
 export default function Card (props: {
-    children: React.ReactElement,
+    children: React.ReactNode,
     style?: React.CSSProperties
     id?: string
 }) {
