@@ -11,6 +11,8 @@ export default function SectionItems(props:{
             'half-half' | 
             'minor4' | 
             'minor3' |
+            'major-minor-3grid' |
+            'minor-major-3grid' |
             'half-minor2' | 
             'minor2-half' | 
             'minor-half-minor',
